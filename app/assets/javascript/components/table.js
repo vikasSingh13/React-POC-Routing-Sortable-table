@@ -40,10 +40,10 @@ class table extends Component {
           <h3>React and Bootstrap Sortable Table</h3>
         </div>
         <div className="react-table-wrap">
-	        <BootstrapTable data={ products } options={ this.options }>
-            <TableHeaderColumn dataField='id' isKey dataSort>Product ID</TableHeaderColumn>
-            <TableHeaderColumn dataField='name' dataSort>Product Name</TableHeaderColumn>
-            <TableHeaderColumn dataField='price' dataSort>Product Price</TableHeaderColumn>
+	        <BootstrapTable ref='table' data={ products } multiColumnSort={ 2 }>
+            <TableHeaderColumn dataField='id' isKey={ true } dataSort={ true }>Product ID</TableHeaderColumn>
+            <TableHeaderColumn dataField='name' dataSort={ true }>Product Name</TableHeaderColumn>
+            <TableHeaderColumn dataField='price' dataSort={ true }>Product Price</TableHeaderColumn>
           </BootstrapTable>
       </div>
       </div>
