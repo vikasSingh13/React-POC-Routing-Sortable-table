@@ -8,11 +8,11 @@ var DemoCarousel = React.createClass({
             <div className="carousel-wrap">
                 <Carousel showArrows={false} autoPlay={true}>
                     <div>
-                        <img src="https://maxlibin.com/wp-content/uploads/2017/01/46e215cd-2eb3-4cf0-b699-713977a2b644.png" alt="react-img" />
+                        <img src="https://image.ibb.co/cyEOk5/react_slider_img.png" alt="react-img" />
                         <p className="legend">React is Awesome</p>
                     </div>
                     <div>
-                        <img src="http://skeeterz71.com/wp-content/uploads/2014/09/bootstrap.jpg" alt="bootstrap-img" />
+                        <img src="https://image.ibb.co/nbh4sk/bootstrap_slide_img.jpg" alt="bootstrap-img" />
                         <p className="legend">The best CSS framework to work</p>
                     </div>
                     <div>
