@@ -1,0 +1,70 @@
+.main-nav-bar
+  margin: 0
+  border-radius: 0 !important
+
+.fluid-wrap
+  padding: 0
+
+.carousel-wrap
+  max-height: 600px
+  .slide
+    img 
+      max-height: 500px
+
+.react-table-wrap
+  .table
+    table-layout: fixed
+    margin-bottom: 0
+
+.inner-wrap
+  -webkit-transition: all .5s ease
+  -moz-transition: all .5s ease
+  -ms-transition: all .5s ease
+  transition: all .5s ease
+  -webkit-box-shadow: 0 0 10px #ccc
+  -moz-box-shadow: 0 0 10px #ccc
+  -ms-box-shadow: 0 0 10px #ccc
+  -o-box-shadow: 0 0 10px #ccc
+  box-shadow: 0 0 10px #ccc
+  padding: 10px
+  height: 350px
+  margin-bottom: 20px
+  &:hover 
+    -webkit-box-shadow: 0 0 15px #666
+    -moz-box-shadow: 0 0 15px #666
+    -ms-box-shadow: 0 0 15px #666
+    -o-box-shadow: 0 0 15px #666
+    box-shadow: 0 0 15px #666
+    box-shadow: 0 2px 8px 3px rgba(0,0,0,.12)
+    transition: box-shadow .6s,background-color .6s,color .6s,opacity .6s,transform .6s
+    -webkit-transition: box-shadow .6s,background-color .6s,color .6s,opacity .6s,-webkit-transform .6s
+    -moz-transition: -moz-transform .6s,box-shadow .6s,background-color .6s,color .6s,opacity .6s
+    -ms-transition: -ms-transform .6s,box-shadow .6s,background-color .6s,color .6s,opacity .6s
+    -webkit-transform: translateY(-4px)
+    -moz-transform: translateY(-4px)
+    -ms-transform: translateY(-4px)
+    transform: translateY(-4px)
+  .img-wrap
+    height: 150px
+    width: 100%
+    text-align: center
+    margin-bottom: 20px
+    img
+      width: 76%
+      height: 90%
+  .desc-wrap
+    p 
+      color: #777
+      font-size: 14px
+    ul
+      list-style: none
+      margin: 0
+      padding: 0
+      li 
+        display: inline-block
+        vertical-align: top
+        margin-right: 10px
+  &.js-inner-wrap
+    .img-wrap
+      img 
+        width: 40%
